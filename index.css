@@ -50,6 +50,9 @@ button{
 #img2 img{
 padding: 10px;
 }
+#us{
+    line-height: 25px;
+}
 .menu{
     background-color: rgb(219, 240, 240);
 }
@@ -69,9 +72,22 @@ padding: 10px;
     display: flex;
     padding: 5px;
     justify-content: space-around;
+
 }
 #menu-2{
     display: flex;
     padding: 5px;
     justify-content: space-around;
 }
+.services,#Serve{
+    display: flex;
+    justify-content: space-around;
+}
+h5{
+    font-size: large;
+    font-weight: bold;
+}
+.Why-us p{
+    text-align: center;
+}
+
