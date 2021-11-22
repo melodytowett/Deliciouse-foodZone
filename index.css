@@ -5,6 +5,9 @@
     height: 600px;
     
 }
+h1{
+    text-align: center;
+}
  .col-1>h3{
     color: white;
     padding: 50px 0 0 100px;
@@ -30,4 +33,45 @@ button{
     padding: 10px;
     background-color: #e97110;
     color: white;
+    border: none;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+#img1{
+    margin: 30px;
+}
+#img2{
+    margin: 30px;
+    justify-content: space-between;
+}
+#img2 img{
+padding: 10px;
+}
+.menu{
+    background-color: rgb(219, 240, 240);
+}
+.menu>button{
+    margin-left: 45%;
+    margin-right:55%;
+    width: 150px;
+    margin-top: 50px;
+}
+.menu p{
+    text-align: center;
+}
+.checked{
+    color: orange;
+}
+#menu-1{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+#menu-2{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
 }
