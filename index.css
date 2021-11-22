@@ -1,0 +1,33 @@
+.col-1{
+    background-image: url("images/noodles.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+ .col-1>h3{
+    color: white;
+    padding: 50px 0 0 100px;
+}
+nav{
+    float: right;
+}
+ nav,ul,a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+.zone{
+    color: white;
+    text-align: center;
+    padding: 100px;
+    line-height: 40px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #e97110;
+    color: white;
+}
