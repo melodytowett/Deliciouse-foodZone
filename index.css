@@ -1,20 +1,23 @@
 .col-1{
-    background-image: url("images/hakka-noodles-recipe.jpg");
+    background-image: url("images/noodles.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 600px;
-    opacity: 0.8;
+    font-size: large;
     
 }
 h1{
     text-align: center;
+    font-style: italic;
 }
- .col-1>h3{
+ .col-1 h3{
     color: white;
     padding: 50px 0 0 100px;
+    font-style: oblique;
 }
 nav{
     float: right;
+    padding-top: 10px;
 }
  nav,ul,a{
     color: white;
@@ -62,10 +65,12 @@ padding: 10px;
     margin-right:55%;
     width: 150px;
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 .menu p{
     text-align: center;
 }
+
 .checked{
     color: orange;
 }
@@ -80,21 +85,35 @@ padding: 10px;
     padding: 5px;
     justify-content: space-around;
 }
+span{
+    background: #E47435;
+    color: white;
+    
+}
 .services,#Serve{
     display: flex;
     justify-content: space-around;
 }
-h5{
+h5 ,h4{
     font-size: large;
     font-weight: bold;
+    font-style: italic;
 }
 .Why-us p{
     text-align: center;
+}
+.line{
+    border: 1px solid #E47435;
+    width: 100px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+    
 }
 .Our-customers{
     background-image: url("images/potato.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    color: white;
 }
 .Our-customers h1 p{
     color: white;
@@ -125,15 +144,20 @@ text-align: center;
          width:830px ;
          height: 30px;
          margin: 10px;
+         background-color: rgb(240, 240, 240);
+         border: none;
      }
      form #message{
         width:830px ;
         height: 80px;
+        
      }
     form #pnumber, #NoPersons, #date, #time{
         width: 400px;
         height: 30px;
         margin: 10px;
+        background-color: rgb(240, 240, 240);
+        border: none;
     }
     form #btn{
         text-align: center;
@@ -175,7 +199,11 @@ text-align: center;
     border: none;
 }
 .sub #mail{
-    background: none;
+     background-color: rgb(105, 103, 103);
+    color: white;
+    
+}
+.sub ::placeholder{
     color: white;
 }
 .sub #subcr{
